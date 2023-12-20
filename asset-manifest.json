@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Millionaire-Game/static/css/main.5bb127a7.css",
+    "main.js": "/Millionaire-Game/static/js/main.2544d796.js",
+    "static/js/845.5eebc7de.chunk.js": "/Millionaire-Game/static/js/845.5eebc7de.chunk.js",
+    "static/media/wwtbam2018_0156.jpg": "/Millionaire-Game/static/media/wwtbam2018_0156.d93e40a02e2a18fb6af2.jpg",
+    "static/media/src_sounds_play.wav": "/Millionaire-Game/static/media/src_sounds_play.8e5f6d1d81d4e1414b95.wav",
+    "static/media/src_sounds_correct (2).mp3": "/Millionaire-Game/static/media/src_sounds_correct (2).160572d72c858155072e.mp3",
+    "static/media/src_sounds_wrong.mp3": "/Millionaire-Game/static/media/src_sounds_wrong.e946821894ae9b0a0d6f.mp3",
+    "index.html": "/Millionaire-Game/index.html",
+    "main.5bb127a7.css.map": "/Millionaire-Game/static/css/main.5bb127a7.css.map",
+    "main.2544d796.js.map": "/Millionaire-Game/static/js/main.2544d796.js.map",
+    "845.5eebc7de.chunk.js.map": "/Millionaire-Game/static/js/845.5eebc7de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bb127a7.css",
+    "static/js/main.2544d796.js"
+  ]
+}
