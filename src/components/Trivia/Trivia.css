@@ -1,0 +1,100 @@
+.trivia {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.trivia .question{
+  width: 80%;
+  background:linear-gradient(to bottom, #020230,#000);
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+}
+@media(max-width:768px){
+ .trivia .question{
+    width: 95%;
+    font-size:18px;
+  }
+}
+.trivia .answers{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  justify-content: center;
+  text-align: center;
+  place-items: center;
+  gap: 20px;
+}
+@media(max-width:768px){
+ .trivia .answers{
+    gap: 10px;
+  }
+}
+.trivia .answers .answer{
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom,#020230, #030349 );
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media(max-width:768px){
+ .trivia .answers .answer{
+    width: 95%;
+    font-size: 16px;
+  }
+}
+.trivia .answers .answer:hover,
+.trivia .answers .answer.active{
+  background: mediumblue;
+}
+
+.trivia .answers .answer.wrong{
+  animation: wrong 3s ease forwards;
+}
+.trivia .answers .answer.correct{
+  animation: correct 3s ease forwards;
+}
+
+@keyframes correct {
+  0%,
+  20%,
+  40%,
+  65%
+  {
+  background: mediumblue;
+  }
+  10%,
+  30%,
+  60%{
+      background: linear-gradient(to bottom,#020230, #030349 );
+  }
+  66%,100%{
+    background: green;
+  }
+}
+@keyframes wrong {
+  0%,
+  20%,
+  40%,
+  65%
+  {
+  background: mediumblue;
+  }
+  10%,
+  30%,
+  60%{
+      background: linear-gradient(to bottom,#020230, #030349 );
+  }
+  66%,100%{
+    background: rgb(201, 13, 13);
+  }
+}
